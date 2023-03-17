@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import coil.load
-import com.challenge3.food_mvvm.R
 import com.challenge3.food_mvvm.databinding.FragmentFoodsListBinding
 import com.challenge3.food_mvvm.viewmodel.FoodsListViewModel
 import dagger.hilt.android.AndroidEntryPoint
