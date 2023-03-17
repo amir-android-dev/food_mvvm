@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/foodsListFragment">
+
+    <fragment
+        android:id="@+id/foodsListFragment"
+        android:name="com.challenge3.food_mvvm.ui.list.FoodsListFragment"
+        android:label="FoodsListFragment" />
+    <fragment
+        android:id="@+id/foodDetailFragment"
+        android:name="com.challenge3.food_mvvm.ui.detail.FoodDetailFragment"
+        android:label="FoodDetailFragment" />
+</navigation>
